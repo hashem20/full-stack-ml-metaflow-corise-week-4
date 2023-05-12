@@ -1,0 +1,73 @@
+{
+  "meta": {},
+  "data": {
+    "id": "full-stack-metaflow",
+    "title": "Week 4: Teamwork Makes the Dream Work",
+    "defaultPath": "./notebooks/intro.ipynb",
+    "showPrimaryView": true,
+    "numbered": true,
+    "sections": [
+      {
+        "title": "Introduction",
+        "description": "",
+        "path": "./notebooks/intro.ipynb",
+        "doc": "./explainers/intro.html"
+      }, 
+      {
+        "title": "Multiplayer Metaflow",
+        "description": "",
+        "path": "./notebooks/concepts.ipynb",
+        "doc": "./explainers/concepts.html"
+      }, 
+      {
+        "title": "Deploy a Baseline Flow",
+        "description": "",
+        "path": "./flows/local/titanic_survival_predictor.py",
+        "doc": "./explainers/baseline_flow.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_survival_predictor.py",
+          "label": "Run Flow",
+          "preFlags": "--environment=conda"
+        }
+      }, 
+      {
+        "title": "Serve Model Predictions",
+        "description": "",
+        "path": "./notebooks/endpoint-champ-only.ipynb",
+        "doc": "./explainers/serve-champ.html"
+      }, 
+      {
+        "title": "Deploy the Challenger Branch",
+        "description": "",
+        "path": "./flows/local/titanic_survival_predictor_xgb.py",
+        "doc": "./explainers/challenger_flow.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_survival_predictor_xgb.py",
+          "label": "Run Flow",
+          "preFlags": "--environment=conda"
+        }
+      }, 
+      {
+        "title": "Analyze the Challenger/Champion Results",
+        "description": "",
+        "path": "./notebooks/challenger-champion.ipynb",
+        "doc": "./explainers/challenger-champion.html"
+      }, 
+      {
+        "title": "Serve Models Side-by-side for A/B Testing",
+        "description": "",
+        "path": "./notebooks/endpoint-ab.ipynb",
+        "doc": "./explainers/serve-ab.html"
+      }, 
+      {
+        "title": "Week 4 Project",
+        "description": "",
+        "path": "./project/template.ipynb",
+        "doc": "./explainers/project.html"
+      }
+    ],
+    "links": []
+  }
+}
